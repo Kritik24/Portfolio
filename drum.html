@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="drum.css">
+</head>
+
+<body>
+    <h1>Drum kit</h1>
+    <div class="drumkit">
+        <div class="drumpad A" data-key="65">A </div>
+        <div class="drumpad S" data-key="83">S</div>
+        <div class="drumpad D" data-key="68">D</div>
+        <div class="drumpad F" data-key="70">F</div>
+
+        <div class="drumpad J" data-key="74">J</div>
+        <div class="drumpad K" data-key="75">K</div>
+        <div class="drumpad L" data-key="76">L</div>
+    </div>
+
+    <!-- Audio for Drum -->
+    <div class="Audio">
+        <audio data-key="65" src="sound/crash.mp3"></audio>
+        <audio data-key="83" src="sound/kick-bass.mp3"></audio>
+        <audio data-key="68" src="sound/snare.mp3"></audio>
+        <audio data-key="70" src="sound/tom-1.mp3"></audio>
+        <audio data-key="74" src="sound/tom-2.mp3"></audio>
+        <audio data-key="75" src="sound/tom-3.mp3"></audio>
+        <audio data-key="76" src="sound/tom-4.mp3"></audio>
+    </div>
+
+
+    <script src="drum.js"></script>
+</body>
+
+</html>

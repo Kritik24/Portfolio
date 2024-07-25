@@ -1,0 +1,104 @@
+body {
+    font-size: 90px;
+    background-color: rgba(0, 153, 255, 0.466);
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    text-shadow: 2px 5px rgba(255, 0, 0, 0.552);
+}
+
+.drumkit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+.drumpad {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    background-color: #ffffff;
+    color: #ed2ded;
+    box-shadow: 5px 5px 5px 5px gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.09s ease;
+    border-radius: 10px;
+
+}
+
+.playing {
+    transform: scale(1.2);
+    border-color: red;
+    box-shadow: 0 10px 10px red;
+}
+/* 
+.drumpad:hover{
+    background-color: red;
+} */
+
+.A {
+    background-image: url('Image/crash.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.S {
+    background-image: url('Image/kick.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.D {
+    background-image: url('/Image/snare.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.F {
+    background-image: url('/Image/tom1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.J {
+    background-image: url('/Image/tom2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.K {
+    background-image: url('/Image/tom3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.L {
+    background-image: url('/Image/tom4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* 
+@keyframes glitter {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+  
+  .glitter {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gold;
+    animation: glitter 1s linear infinite;
+  } */
